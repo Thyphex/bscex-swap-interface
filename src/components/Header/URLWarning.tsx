@@ -30,15 +30,15 @@ export default function URLWarning() {
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={12} /> Make sure the URL is
-        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>swap.bscex.org</code>
+        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>swapv1.launchzone.org</code>
       </div>
       <StyledClose size={12} onClick={toggleURLWarning} />
     </PhishAlert>
-  ) : window.location.hostname === 'swap.bscex.org' ? (
+  ) : window.location.hostname === 'swapv1.launchzone.org' ? (
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={12} /> Always make sure the URL is
-        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>swap.bscex.org</code> - bookmark it to
+        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>swapv1.launchzone.org</code> - bookmark it to
         be safe.
       </div>
       <StyledClose size={12} onClick={toggleURLWarning} />
