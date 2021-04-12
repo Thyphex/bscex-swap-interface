@@ -205,6 +205,15 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     color: '#E8831D',
     mobile: true
   },
+  ONTO: {
+    connector: injected,
+    name: 'Onto Wallet',
+    iconName: 'onto.svg',
+    description: 'Ontology Data Wallet',
+    href: null,
+    color: '#E8831D',
+    mobile: true
+  },
   WALLET_CONNECT: {
     connector: walletconnect,
     name: 'Trust Wallet',

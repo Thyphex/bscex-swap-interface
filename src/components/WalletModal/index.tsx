@@ -8,6 +8,7 @@ import styled from 'styled-components'
 import MetamaskIcon from '../../assets/images/metamask.png'
 import ezDeFiIcon from '../../assets/images/zd.png'
 import Coin98Icon from '../../assets/images/coin98.png'
+import OntoIcon from '../../assets/images/onto.svg'
 import { ReactComponent as Close } from '../../assets/images/x.svg'
 import { fortmatic, injected, binanceinjected, portis } from '../../connectors'
 import { OVERLAY_READY } from '../../connectors/Fortmatic'
@@ -264,6 +265,18 @@ export default function WalletModal({
                 subheader={null}
                 link={'https://ezdefi.com/products/walletapp/'}
                 icon={ezDeFiIcon}
+              />
+            )
+          } else if (option.name === 'Onto Wallet') {
+            return (
+              <Option
+                id={`connect-${key}`}
+                key={key}
+                color={'#E8831D'}
+                header={'Install Onto Wallet'}
+                subheader={null}
+                link={'https://www.onto.app/en'}
+                icon={OntoIcon}
               />
             )
           } else if (option.name === 'Coin98 Wallet') {
