@@ -63,7 +63,7 @@ export default function Swap() {
     setDismissTokenWarning(true)
   }, [])
 
-  const { account, chainId, library } = useActiveWeb3React()
+  const { account } = useActiveWeb3React()
   const theme = useContext(ThemeContext)
 
   // toggle wallet when disconnected
@@ -274,7 +274,7 @@ export default function Swap() {
     // } else {
     maxAmountInput && onUserInput(Field.INPUT, maxAmountInput.toExact())
     // }
-  }, [maxAmountInput, onUserInput, chainId, library, account, currencies])
+  }, [maxAmountInput, onUserInput])
 
   const handleOutputSelect = useCallback(outputCurrency => onCurrencySelection(Field.OUTPUT, outputCurrency), [
     onCurrencySelection
