@@ -320,7 +320,7 @@ export default function Header() {
   const HeaderLink = (
     <HeaderLinks showMenu={showMenu}>
       <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
-        AMMv1
+        Swap
       </StyledNavLink>
       <StyledNavLink
         id={`pool-nav-link`}
@@ -341,9 +341,9 @@ export default function Header() {
     <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
       Vote
     </StyledNavLink>*/}
-      <StyledAbsoluteLink href={'https://launchpoolx.bscex.org'}>LaunchpoolX</StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://swapx.bscex.org'}>SwapX</StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://governance.bscex.org'}>Governance</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://1click.swap.quest'}>OneClick</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://coin.swap.quest'}>Quest Coin</StyledAbsoluteLink>
+     {/* <StyledAbsoluteLink href={'https://governance.bscex.org'}>Governance</StyledAbsoluteLink> */}
     </HeaderLinks>
   )
 

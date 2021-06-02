@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Bscex/bscex-swap-interface'
+const CODE_LINK = 'https://github.com'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -105,11 +105,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://bscex.org/">
+          <MenuItem id="link" href="https://about.swap.quest">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://bscex.org/docs/">
+          <MenuItem id="link" href="https://github.com">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -117,9 +117,9 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/9r8YZ3Ys">
+          <MenuItem id="link" href="https://t.me/moonquest">
             <MessageCircle size={14} />
-            Discord
+            Telegram
           </MenuItem>
           <MenuItem id="link" href="https://pancakeswap.info/">
             <PieChart size={14} />

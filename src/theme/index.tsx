@@ -42,24 +42,24 @@ export function colors(darkMode: boolean): Colors {
 
     // text
     text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#EDEEF2',
+    text2: darkMode ? '#C3C5CB' : '#565A69', //balance text
+    text3: darkMode ? '#6C7284' : '#888D9B', //search and disabled button
+    text4: darkMode ? '#565A69' : '#C3C5CB', //zero number
+    text5: darkMode ? '#a6f0c6' : '#EDEEF2',
 
     // backgrounds / greys
-    bg1: darkMode ? '#005667' : '#FFFFFF',
-    bg2: darkMode ? '#003641' : '#F7F8FA',
-    bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#565A69' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#888D9B',
+    bg1: darkMode ? '#262626' : '#FFFFFF', //background card
+    bg2: darkMode ? '#151515' : '#f5eefd', //background
+    bg3: darkMode ? '#323133' : '#dbdbdb', //button gray
+    bg4: darkMode ? '#565A69' : '#CED0D9', //button gray on hover
+    bg5: darkMode ? '#4d375d' : '#888D9B',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#fa9a00' : '#5aa62b', //resto
+    primary1: darkMode ? '#fa9a00' : '#fa9a00', //resto
     primary2: darkMode ? '#3680E7' : '#FF8CC3',
     primary3: darkMode ? '#4D8FEA' : '#FF99C9',
     primary4: darkMode ? '#376bad70' : '#F6DDE8',
@@ -71,7 +71,7 @@ export function colors(darkMode: boolean): Colors {
     // secondary colors
     secondary1: darkMode ? '#5aa62b' : '#5aa62b',
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
-    secondary3: darkMode ? '#17000b26' : '#FDEAF1',
+    secondary3: darkMode ? '#17000b26' : '#fa9a00',
 
     // other
     red1: '#FF6871',
